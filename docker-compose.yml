@@ -1,0 +1,7 @@
+version: '3.1'
+services:
+  test:
+    build: .
+    environment:
+      TEST1: "123"
+      TEST2: "321"
